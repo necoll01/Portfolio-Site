@@ -75,34 +75,37 @@
 }
 
 
-/* body */
-body {
-    margin: 0;
-    height: 100%;
-    display: grid;
+/* page content, doesn't include nav bar */
+.page-content { 
+    background-color: transparent;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
+
+
 /* about section */
 
 .about {
-background-color: yellow;
+  border-bottom: solid 1px;
+  border-color: lightgrey;
+  padding: 1em;
 }
-
-/* projects section */
-
-
+/* projects */
 .projects {
-
-    background-color: red;
+  border-bottom: solid 1px;
+  border-color: lightgrey;
+  padding: 1em;
 }
 
+/* description */ 
 
-/*  skills section */
-
-.skills {
- background-color: green;
+.description {
+  font-size: 2em;
 }
-
-
+/* skills */
+ 
 /* viewports */
 
 /* mobile viewport */
