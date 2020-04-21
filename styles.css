@@ -88,6 +88,36 @@
 }
 
 
+/* headings */
+h1, h2{
+  text-align: center;
+} 
+h3 {
+  text-align: center;
+  color: #3a9691;
+}
+
+/* links*/
+
+/* unvisited link */
+.page-content a:link {
+  color: #3a9691;
+}
+
+/* visited link */
+.page-content a:visited {
+  color: #3a9691;
+}
+
+/* mouse over link */
+.page-content a:hover {
+  color: #07c2b8;
+}
+
+/* selected link */
+.page-content a:active {
+  color: #3a9691;
+}
 /* about section */
 
 .about {
@@ -107,6 +137,17 @@
 .column-layout{ 
   display:grid;
   grid-template-columns: repeat(2, 1fr);
+ 
+}
+ 
+.column1 {
+text-align: center;
+
+}
+
+.column2 {
+text-align: center;
+
 }
 /* description */ 
 
@@ -115,9 +156,17 @@
   border-bottom: solid 1px;
   border-color: lightgrey;
 }
-/* skills */
- 
+/*footer*/
+.footer {
+  border-top: solid 1px;
+  border-color: lightgrey;
+}
+.icon {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30px;
+  text-align: center;
+}
 /* viewports */
 
 /* mobile viewport */
-
