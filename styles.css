@@ -124,6 +124,18 @@ h3 {
   margin: auto;
   display: block;
 }
+
+.art-images img { 
+  max-width: 500px;
+  margin: auto;
+  display: block;
+}
+
+.art-images figcaption {
+  font-size: .8em;
+  font-style: italic;
+  text-align: center;
+}
 /* about section */
 
 .about {
