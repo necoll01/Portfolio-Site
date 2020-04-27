@@ -125,13 +125,11 @@ h3 {
   display: block;
 }
 
-.art-images img { 
+.art-images {
   max-width: 500px;
-  margin: auto;
-  display: block;
 }
 
-.art-images figcaption {
+figcaption {
   font-size: .8em;
   font-style: italic;
   text-align: center;
